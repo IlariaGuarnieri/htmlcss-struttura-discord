@@ -10,7 +10,7 @@ body{
 
 .debug{
   background-color: rgba(255, 136, 0, 0.717);
-  border: 1px solid black;
+  border: 1px dashed black;
 }
 
 header{
@@ -22,21 +22,38 @@ header{
   height: 80px;
 }
 
+.logo-header{
+  display: flex;
+  width: 50%;
+}
+
 header .container{
   display: flex;
   justify-content: space-between;
   justify-content: center;
+  height: 70%;
+  border: 1px dashed black;
 }
+
+/* .sezione-footer2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #23272A;
+  height: 80px;
+  } */
 
 nav{
   width:1000px;
 }
 
-nav ul{
+nav ul li{
   display: flex;
   list-style: none;
   justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .login{
@@ -53,9 +70,10 @@ nav ul{
 }
 
 .jumbotron div{
-  background-color: #EE82EE;
+  background-color:#F08080;
   height: 500px;
   width: 800px;
+  border: 1px dashed black;
 }
 
 .sezione2{
@@ -83,12 +101,14 @@ section .container2{
   display: flex;
   width: 65%;
   background-color: #1E90FE;
+  border: 1px dashed black;
 }
 
 .container-base .container-dx{
   display: flex;
   width: 35%;
   background-color: #FFC1CB;
+  border: 1px dashed black;
 }
 
 .sezione3{
@@ -103,12 +123,14 @@ section .container2{
   display: flex;
   width: 35%;
   background-color: #FFC1CB;
+  border: 1px dashed black;
 }
 
 .container-base .container-dx2{
   display: flex;
   width: 65%;
   background-color: #1E90FE;
+  border: 1px dashed black;
 }
 
 .sezione5{
@@ -124,6 +146,7 @@ section .container2{
   height: 90%;
   width: 1000px;
   background-color: #228B22;
+  border: 1px dashed black;
 }
 
 .sezione-footer{
@@ -132,6 +155,7 @@ section .container2{
   justify-content: center;
   align-items: center;
   height: 500px;
+  border-bottom: 1px solid white;
 }
 
 .sezione-footer .container-base-footer{
@@ -139,4 +163,69 @@ section .container2{
   height: 95%;
   width: 1000px;
   background-color: black;
+}
+
+.container-base-footer .box1{
+  display: flex;
+  width: 30%;
+  background-color: #F08080;
+  border: 1px dashed black;
+  bord
+}
+
+.container-base-footer .box2{
+  display: flex;
+  width: 17.5%;
+  background-color: #20B2AA;
+  border: 1px solid white;
+}
+
+.container-base-footer .box3{
+  display: flex;
+  width: 17.5%;
+  background-color: #20B2AA;
+  border: 1px dashed white;
+}
+
+.container-base-footer .box4{
+  display: flex;
+  width: 17.5%;
+  background-color: #20B2AA;
+  border: 1px dashed white;
+}
+
+.container-base-footer .box5{
+  display: flex;
+  width: 17.5%;
+  background-color: #20B2AA;
+  border: 1px dashed white;
+}
+
+.sezione-footer2{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+background-color: #23272A;
+height: 80px;
+}
+
+.container-base-footer2{
+display: flex;
+height: 80%;
+width: 1000px;
+background-color:#7FFFD4;
+justify-content: flex-end;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+  background-color: #FEB6C1;
+  border: 1px dashed black;
+}
+
+.bottone{
+  background-color: #FEB6C1;
+  border: 1px dashed black;
 }
