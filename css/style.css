@@ -8,58 +8,33 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.debug{
-  background-color: rgba(255, 136, 0, 0.717);
-  border: 1px dashed black;
-}
+
 
 header{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgb(0, 132, 255);
+  background-color: #DAA520;
   height: 80px;
-}
-
-.logo-header{
-  display: flex;
-  width: 50%;
-}
-
-header .container{
-  display: flex;
   justify-content: space-between;
-  justify-content: center;
-  height: 70%;
-  border: 1px dashed black;
 }
 
-/* .sezione-footer2{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #23272A;
-  height: 80px;
-  } */
-
-nav{
-  width:1000px;
+.container{
+  /*display: flex; serve? */
+  /*justify-content: space-between;*/
+  /*justify-content: center;*/
+  width: 80%;
+  margin: 0 auto;
 }
 
+
+nav ul{
+  text-align: center;
+}
 nav ul li{
-  display: flex;
+  display: inline;
   list-style: none;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
-.login{
-  background-color: rgba(255, 136, 0, 0.717);
-  border: 1px solid black;
-}
 
 .jumbotron{
   background-color: #00008B;
@@ -170,14 +145,14 @@ section .container2{
   width: 30%;
   background-color: #F08080;
   border: 1px dashed black;
-  bord
+  
 }
 
 .container-base-footer .box2{
   display: flex;
   width: 17.5%;
   background-color: #20B2AA;
-  border: 1px solid white;
+  border: 1px dashed white;
 }
 
 .container-base-footer .box3{
@@ -202,12 +177,12 @@ section .container2{
 }
 
 .sezione-footer2{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-around;
-background-color: #23272A;
-height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #23272A;
+  height: 80px;
 }
 
 .container-base-footer2{
@@ -229,3 +204,24 @@ align-items: center;
   background-color: #FEB6C1;
   border: 1px dashed black;
 }
+
+/* 
+.debug{
+  border: 1px dashed black;
+}
+
+.debug .nome-sezione{
+background-color: lightblue;
+}
+
+.debug .sezione-2{
+  background-color: lightblue;
+  }
+
+.debug header{
+  background-color: orange;
+}
+
+.debug .logo-header{
+  border: 1px dashed black;
+} */
