@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug{
+  background-color: rgba(255, 136, 0, 0.717);
+  border: 1px solid black;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0, 132, 255);
+  height: 80px;
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+nav{
+  width:1000px;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.login{
+  background-color: rgba(255, 136, 0, 0.717);
+  border: 1px solid black;
+}
+
+.jumbotron{
+  background-color: #00008B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.jumbotron div{
+  background-color: #EE82EE;
+  height: 500px;
+  width: 800px;
+}
+
+.sezione2{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+section .container2{
+  background-color: rgb(242, 101, 246);
+  height: 500px;
+  width: 800px;
+}
+
+.container-base{
+  display: flex;
+  height: 400px;
+  width: 1000px;
+  background-color: black;
+}
+
+.container-base .container-sx{
+  display: flex;
+  width: 65%;
+  background-color: #1E90FE;
+}
+
+.container-base .container-dx{
+  display: flex;
+  width: 35%;
+  background-color: #FFC1CB;
+}
+
+.sezione3{
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.container-base .container-sx2{
+  display: flex;
+  width: 35%;
+  background-color: #FFC1CB;
+}
+
+.container-base .container-dx2{
+  display: flex;
+  width: 65%;
+  background-color: #1E90FE;
+}
+
+.sezione5{
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.container-base5{
+  display: flex;
+  height: 90%;
+  width: 1000px;
+  background-color: #228B22;
+}
+
+.sezione-footer{
+  background-color:#23272A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.sezione-footer .container-base-footer{
+  display: flex;
+  height: 95%;
+  width: 1000px;
+  background-color: black;
+}
